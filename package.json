@@ -11,14 +11,21 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.8",
+    "@huggingface/transformers": "^3.0.0-alpha.19",
     "@remix-run/node": "^2.12.1",
     "@remix-run/react": "^2.12.1",
     "@remix-run/serve": "^2.12.1",
+    "@upstash/queue": "^1.0.1",
+    "@xenova/transformers": "^2.17.2",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-dropzone-esm": "^15.0.1",
+    "remix-utils": "^7.0.0-pre.7"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "latest",
     "@remix-run/dev": "^2.12.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
